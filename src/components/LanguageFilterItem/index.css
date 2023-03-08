@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.list-item-container {
+  margin: 10px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+.active-button {
+  border: 1px solid #0284c7;
+  color: #0284c7;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
